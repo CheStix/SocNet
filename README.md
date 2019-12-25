@@ -1,0 +1,1 @@
+Project SocNet on Django written by the book "Django 2 by Example" author Antonio Mele
