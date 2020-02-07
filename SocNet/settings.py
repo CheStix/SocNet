@@ -47,6 +47,7 @@ INSTALLED_APPS = [
 
     # 3rd party app
     'social_django',
+    'sorl.thumbnail',
 ]
 
 MIDDLEWARE = [
@@ -158,4 +159,6 @@ SOCIAL_AUTH_TWITTER_SECRET = TWITTER['SECRET']
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = GOOGLE['KEY']
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = GOOGLE['SECRET']
+
+
 
