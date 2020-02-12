@@ -159,5 +159,11 @@ SOCIAL_AUTH_TWITTER_SECRET = TWITTER['SECRET']
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = GOOGLE['KEY']
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = GOOGLE['SECRET']
 
+from django.urls import reverse_lazy
+
+ABSOLUTE_URL_OVERRIDES = {
+    'auth.user': lambda u: reverse_lazy('user_detail', args=[u.username])
+}
+
 
 

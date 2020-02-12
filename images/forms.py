@@ -30,3 +30,4 @@ class ImageCreateForm(forms.ModelForm):
         if commit:
             image.save()
         return image
+#TODO генерация имени файла из title через форматирование кририлицы на латиницу
